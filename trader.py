@@ -13,7 +13,7 @@ initial_principal_amount = float(sys.argv[1])
 cerebro.broker.setcash(initial_principal_amount)
 
 data = bt.feeds.YahooFinanceCSVData(
-    dataname='NVDA.csv',
+    dataname='NVDA.csv', # you can add csv file of any historical data of any stock but of the same format of columns
     fromdate=datetime.datetime(2023, 1, 1),
     todate=datetime.datetime(2023, 12, 31),
     reverse=False)
