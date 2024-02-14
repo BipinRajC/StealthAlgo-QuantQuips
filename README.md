@@ -118,6 +118,8 @@ class MovingAverageCrossoverStrategy(bt.Strategy):
 Enter your queries and get AI generated answers for the same here.
 Sample question - `what is a genetic algorithm?`
 
+download the `Mistral 7b` model from here - [huggingface-Mistral7B](https://huggingface.co/Open-Orca/Mistral-7B-OpenOrca)
+
 =======
 ## ABOUT US
 We are a group of passionate and enthusiastic undergraduate students! Check out this page for more information about us. Explore Quantquips, where we blend technology and finance to redefine algorithmic trading.
